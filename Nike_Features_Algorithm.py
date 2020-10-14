@@ -14,7 +14,7 @@ and 'features.xlsx' file are in the same directory. If using a PC and the data
 stored on SFU Vault, you should simply need to change the 'comp' variable to 
 match your computer username. (look in file explorer for this)
 
-Contact Evan at evan_macdonald@sfu.ca if there are any questions or concerns.
+Contact Evan if there are any questions or concerns.
 """
 
 import numpy as np
@@ -29,11 +29,11 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 from sklearn import decomposition
 
-comp = 'Evan Macdonald'
+comp = 'xxx' # insert computer name here
 
 #%% Import demographic data and features
 # Import demographic data.
-file = open('C:/Users/'+comp+'/sfuvault/Protex II/python_code/demographic_data_norm.csv')
+file = open('C:/Users/'+comp+'/sfuvault/Protex II/python_code/demographic_data_norm.csv') #update file path accordingly
 Demographics = pd.read_csv(file)
 Demographics = Demographics.rename(columns={Demographics.columns[0]: 'PID' })
 # Pull out a legend of PID where pressure data and injury data exists
