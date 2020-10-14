@@ -23,7 +23,7 @@ To run this code:
     on the test data and get a confusion matrix (leave the brackets empy if you
     do not want to show the confusion matrix)
     
-Contact Evan at evan_macdonald@sfu.ca if there are any questions or concerns.
+Contact Evan if there are any questions or concerns.
     
 """
 
